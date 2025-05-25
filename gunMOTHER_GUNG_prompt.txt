@@ -1,0 +1,67 @@
+
+PROJECT: gunMOTHER $GUNG
+
+🧨 Vibe: Gangsta Grandma Energy + Explosive Memes
+
+📦 Assets:
+- Logo: logo.jpg
+- Banner: banner.jpg
+- Gallery: 1.jpg – 6.jpg
+
+🎯 TASK FOR CURSOR:
+Create a meme-heavy, hyper-animated landing page for $GUNG. The entire aesthetic is “dangerous grandma from the hood.” Gangsta fonts, chain bling, bullets, cigars, explosive transitions, boom-boom sound effects – go wild.
+
+🧱 Website Structure:
+1. **Fixed Header**
+   - Left: logo.jpg
+   - Right Nav:
+     - "Why Grandma?"
+     - "Lore"
+     - "Roadmap"
+     - "Buy $GUNG"
+
+2. **Hero Section**
+   - Fullscreen banner (banner.jpg)
+   - Huge heading: “GUNS. GRITS. GRANDMA.”
+   - Subtext: “Don’t talk back to Granny.”
+   - Flashing CTA button: “BUY ON PUMPFUN”
+
+3. **About Section**
+   - Left: 1.jpg
+   - Right: text (example):
+     “You thought she was baking cookies. She was loading mags. $GUNG was born when one granny snapped during bingo night and decided to drop a memecoin with the same firepower she kept under her knitting table.”
+
+4. **Gallery of Wrath**
+   - Display all images (2.jpg – 6.jpg)
+   - Each with hover animations + captions like:
+     - “Don’t let the robe fool you – she’s packing heat.”
+     - “Grandma’s aim? 100% on-chain.”
+     - “Cigars and carnage. Just another Tuesday.”
+     - “She doesn’t miss. She knits and hits.”
+
+5. **Roadmap**
+   - Q1: Bake sale fundraises the first LP.
+   - Q2: Grandma buys a flamethrower.
+   - Q3: Launches $GUNG. Targets soft rugs.
+   - Q4: Shoots a TikTok music video in full camo.
+
+6. **Lore Section (Click to Reveal)**
+   - Big flashing button: “Who is gunMOTHER?”
+   - Expands into an animated monologue from Granny herself:
+     “Back in my day, we didn’t ask what tokens do. We asked who they do it *to*. I lost 3 husbands and a Degen wallet. Now I’m here to make you rich or bury you trying.”
+
+7. **Footer**
+   - Logo repeat
+   - Warning: “Do not fade granny. Not financial advice.”
+   - Twitter link (placeholder): [TWITTER]
+
+🎨 Style Guide:
+- Font: West side graffiti or Bangers-style
+- Color Palette: deep reds, charcoal black, brass, neon green
+- Animations: bounce, pop, glitch, flame bursts, AOS transitions
+- Responsive but desktop-optimized
+- Must make user feel like grandma will find them IRL if they fade this coin
+
+🔥 Optional: Add graffiti tags that appear on scroll, “GRANDMA STRIKES BACK”, “BUY OR DIE”, “TAPES FROM NAM 1967”
+
+Make it chaotic. Make it iconic. Let granny cook.
