@@ -3,129 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>gunMOTHER $GUNG - Guns. Grits. Grandma.</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>SpungBObe ($SPUNG) - Straight outta Bikini Bottom</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Fixed Header -->
+    <!-- Floating elements -->
+    <div class="floating-elements">
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="fish"></div>
+        <div class="cash"></div>
+        <div class="cash"></div>
+        <div class="fish reverse"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+    </div>
+
+    <!-- Header -->
     <header>
-        <div class="logo">
-            <img src="logo.jpg" alt="gunMOTHER Logo">
+        <div class="logo-container">
+            <img src="logo.jpg" alt="SpungBObe Logo" class="logo">
         </div>
-        <nav>
-            <ul>
-                <li><a href="#about">Why Grandma?</a></li>
-                <li><a href="#lore">Lore</a></li>
-                <li><a href="#roadmap">Roadmap</a></li>
-                <li><a href="#" class="cta-nav">Buy $GUNG</a></li>
-            </ul>
-        </nav>
+        <a href="https://x.com/spungbobe" class="twitter-btn" target="_blank">Twitter</a>
     </header>
 
     <!-- Hero Section -->
-    <section id="hero">
-        <div class="hero-content">
-            <h1 class="glitch-text">GUNS. GRITS. GRANDMA.</h1>
-            <p>Don't talk back to Granny.</p>
-            <button class="cta-button flash">BUY ON PUMPFUN</button>
-        </div>
-        <div class="hero-background">
-            <img src="banner.jpg" alt="gunMOTHER Banner">
-        </div>
-        <div class="graffiti tag1">GRANDMA STRIKES BACK</div>
+    <section class="hero">
+        <img src="banner.jpg" alt="SpungBObe Banner" class="banner">
+        <h1 class="slogan">Straight outta Bikini Bottom</h1>
+        <h2 class="subtitle">More soaked than your bag</h2>
+        <a href="https://pump.fun" class="cta-button" target="_blank">BUY $SPUNG ON PUMPFUN</a>
     </section>
 
     <!-- About Section -->
-    <section id="about" data-aos="fade-up">
+    <section class="about">
         <div class="about-image">
-            <img src="1.jpg" alt="gunMOTHER About">
+            <img src="1.jpg" alt="SpungBObe Art" class="funny-art">
         </div>
         <div class="about-text">
-            <h2>About $GUNG</h2>
-            <p>You thought she was baking cookies. She was loading mags. $GUNG was born when one granny snapped during bingo night and decided to drop a memecoin with the same firepower she kept under her knitting table.</p>
+            <h2>ABOUT SPUNGBObe</h2>
+            <p>Once a simple sponge, now a liquidity menace. $SPUNG was born from a wet keyboard and a dream. It's a token, it's a joke, it's your next loss. Dive in or dry out.</p>
         </div>
-        <div class="graffiti tag2">BUY OR DIE</div>
     </section>
 
-    <!-- Gallery of Wrath -->
-    <section id="gallery" data-aos="fade-up">
-        <h2>Gallery of Wrath</h2>
-        <div class="gallery-container">
-            <div class="gallery-item" data-aos="flip-left">
-                <img src="2.jpg" alt="Gallery 1">
-                <div class="caption">Don't let the robe fool you – she's packing heat.</div>
+    <!-- Meme Wall / Gallery -->
+    <section class="meme-wall">
+        <h2>MEME WALL</h2>
+        <div class="meme-grid">
+            <div class="meme-item">
+                <img src="2.jpg" alt="Patrick Meme" class="meme-img">
+                <p class="meme-caption">"Patrick got rugged and joined a cartel."</p>
             </div>
-            <div class="gallery-item" data-aos="flip-right">
-                <img src="3.jpg" alt="Gallery 2">
-                <div class="caption">Grandma's aim? 100% on-chain.</div>
+            <div class="meme-item">
+                <img src="3.jpg" alt="SpongeBob Meme" class="meme-img">
+                <p class="meme-caption">"SpongeBob sold the bottom. Again."</p>
             </div>
-            <div class="gallery-item" data-aos="flip-left">
-                <img src="4.jpg" alt="Gallery 3">
-                <div class="caption">Cigars and carnage. Just another Tuesday.</div>
+            <div class="meme-item">
+                <img src="4.jpg" alt="Squidward Meme" class="meme-img">
+                <p class="meme-caption">"Squidward is our dev. Don't ask."</p>
             </div>
-            <div class="gallery-item" data-aos="flip-right">
-                <img src="5.jpg" alt="Gallery 4">
-                <div class="caption">She doesn't miss. She knits and hits.</div>
-            </div>
-            <div class="gallery-item" data-aos="flip-up">
-                <img src="6.jpg" alt="Gallery 5">
-                <div class="caption">Cross her and find out. Meme power through the roof.</div>
-            </div>
-        </div>
-        <div class="graffiti tag3">TAPES FROM NAM 1967</div>
-    </section>
-
-    <!-- Roadmap -->
-    <section id="roadmap" data-aos="fade-up">
-        <h2>Roadmap</h2>
-        <div class="roadmap-container">
-            <div class="roadmap-item" data-aos="zoom-in">
-                <h3>Q1</h3>
-                <p>Bake sale fundraises the first LP.</p>
-            </div>
-            <div class="roadmap-item" data-aos="zoom-in">
-                <h3>Q2</h3>
-                <p>Grandma buys a flamethrower.</p>
-            </div>
-            <div class="roadmap-item" data-aos="zoom-in">
-                <h3>Q3</h3>
-                <p>Launches $GUNG. Targets soft rugs.</p>
-            </div>
-            <div class="roadmap-item" data-aos="zoom-in">
-                <h3>Q4</h3>
-                <p>Shoots a TikTok music video in full camo.</p>
+            <div class="meme-item">
+                <img src="5.jpg" alt="Gary Meme" class="meme-img">
+                <p class="meme-caption">"Gary's locked liquidity and the key is missing."</p>
             </div>
         </div>
     </section>
 
-    <!-- Lore Section -->
-    <section id="lore" data-aos="fade-up">
-        <button id="lore-button" class="flash-button">Who is gunMOTHER?</button>
-        <div id="lore-reveal" class="hidden">
-            <div class="lore-content">
-                <p>"Back in my day, we didn't ask what tokens do. We asked who they do it <em>to</em>. I lost 3 husbands and a Degen wallet. Now I'm here to make you rich or bury you trying."</p>
+    <!-- The Plan / Roadmap -->
+    <section class="roadmap">
+        <h2>THE PLAN</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Q1</h3>
+                    <p>Launch. Bikini Bottom goes long.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Q2</h3>
+                    <p>Listings? Nah, just vibes.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Q3</h3>
+                    <p>Community makes memes, coin hits peak stupidity.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Q4</h3>
+                    <p>Animated movie? (Not financial advice)</p>
+                </div>
             </div>
         </div>
     </section>
+
+    <!-- Chaos Section -->
+    <section class="chaos-overlay" id="chaosOverlay">
+        <div class="chaos-content">
+            <div class="chaos-images">
+                <img src="1.jpg" alt="Chaos Image" class="chaos-img">
+                <img src="2.jpg" alt="Chaos Image" class="chaos-img">
+                <img src="3.jpg" alt="Chaos Image" class="chaos-img">
+                <img src="4.jpg" alt="Chaos Image" class="chaos-img">
+                <img src="5.jpg" alt="Chaos Image" class="chaos-img">
+            </div>
+            <h2 class="chaos-text">You thought it was a joke. But $SPUNG is eternal.</h2>
+            <button id="closeChaos" class="close-chaos">MAKE IT STOP</button>
+        </div>
+    </section>
+    <button id="triggerChaos" class="trigger-chaos">UNLEASH CHAOS</button>
 
     <!-- Footer -->
     <footer>
         <div class="footer-logo">
-            <img src="logo.jpg" alt="gunMOTHER Logo">
+            <img src="logo.jpg" alt="SpungBObe Logo" class="small-logo">
         </div>
-        <div class="warning">
-            <p>Do not fade granny. Not financial advice.</p>
-        </div>
-        <div class="social">
-            <a href="https://x.com/gunmotherGUNG" class="twitter-link">[TWITTER]</a>
-        </div>
+        <a href="https://x.com/spungbobe" class="twitter-btn footer-twitter" target="_blank">Twitter</a>
+        <p class="disclaimer">Not affiliated with Nickelodeon. Please don't sue. Also not responsible for your financial decisions.</p>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script src="script.js"></script>
 </body>
 </html> 

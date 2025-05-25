@@ -1,0 +1,62 @@
+
+PROJECT: SpungBObe ($SPUNG)
+
+TASK: Create a modern, ultra-animated and fun HTML website for a memecoin called SpungBObe ($SPUNG) using a chaotic and meme-driven design.
+Do NOT use boilerplate text. Everything must be visually wild, bold and funny.
+
+STRUCTURE:
+
+1. HEADER
+- Centered LOGO (logo.jpg)
+- Explosive animation when logo is hovered or loaded.
+- Right corner: Twitter button → https://x.com/spungbobe
+
+2. HERO SECTION
+- Fullscreen BANNER (banner.jpg) with spinning elements
+- Large slogan in graffiti-style font: "Straight outta Bikini Bottom"
+- Subtitle (animated): “More soaked than your bag”
+- Big animated CTA: “BUY $SPUNG ON PUMPFUN” — link to https://pump.fun
+
+3. ABOUT SPUNGBObe
+- Side-by-side: 
+  - Left: funny art image (1.jpg)
+  - Right: Paragraph:
+    "Once a simple sponge, now a liquidity menace. $SPUNG was born from a wet keyboard and a dream. It’s a token, it’s a joke, it’s your next loss. Dive in or dry out."
+
+4. MEME WALL / GALLERY
+- Grid with each image (2.jpg – 5.jpg)
+- Under each, a meme-caption:
+  - “Patrick got rugged and joined a cartel.”
+  - “SpongeBob sold the bottom. Again.”
+  - “Squidward is our dev. Don't ask.”
+  - “Gary’s locked liquidity and the key is missing.”
+
+5. THE PLAN
+- Timeline-style Roadmap:
+  - Q1: Launch. Bikini Bottom goes long.
+  - Q2: Listings? Nah, just vibes.
+  - Q3: Community makes memes, coin hits peak stupidity.
+  - Q4: Animated movie? (Not financial advice)
+
+6. CHAOS SECTION (Optional overlay)
+- Show flashing images with SFX
+- Text: "You thought it was a joke. But $SPUNG is eternal."
+
+7. FOOTER
+- Repeats logo (small)
+- Twitter button again
+- Disclaimer: “Not affiliated with Nickelodeon. Please don’t sue. Also not responsible for your financial decisions.”
+
+STYLE:
+- Font: Bangers, Comic Neue
+- Colors: neon yellow, seafoam green, deep ocean blue
+- Animations: spin, shake, bounce, neon flicker, scale-in
+- Everything should feel like you're browsing a cursed TV channel underwater
+
+NOTES:
+- Add animated floating elements: bubbles, fishes, and cash
+- Add hover FX on all images (scale and flash)
+- Make sure every piece of text can be easily changed
+- Code should be clean HTML/CSS/JS (no frameworks)
+
+GOAL: Make it wild, immersive, and absolutely unhinged.
